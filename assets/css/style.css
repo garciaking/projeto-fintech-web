@@ -8,13 +8,12 @@
 }
 
 :root {
-    --main-color: #B5FF3C;
+    --main-color: #FD6699;
     --bg-color-fin: hsla(83, 100%, 62%, 0.2)
 }
 
 
 /* ------------------------------- */
-
 
 .ctn-bg {
     background-color: var(--bg-color-fin);
@@ -25,7 +24,7 @@
 }
 
 .nav-item:hover {
-    border-bottom: 1px solid #FD6699;
+    border-bottom: 1px solid var(--main-color);
     transition: all 0.2s ease;
 }
 
@@ -37,8 +36,8 @@
     font-size: 4.4rem;
 }
 
-span {
-    color: #FD6699;
+span, .primary-btn:hover, .card-btn, .info-btn:hover, .icon-footer  {
+    color: var(--main-color)
 }
 
 .main-text {
@@ -50,39 +49,30 @@ span {
     padding: 20px 40px;
     border: none;
     color: #fff;
-    background-color: #FD6699;
+    background-color: var(--main-color);
     transition: all 0.3s ease;
 }
 
 .primary-btn:hover {
     background-color: #fff;
-    color: #FD6699;
 }
-
-.card-btn {
-    color: #FD6699;
-}
-
 
 .info-btn {
     cursor: pointer;
     padding: 20px 40px;
     border: none;
     color: #fff;
-    background-color: #FD6699;
+    background-color: var(--main-color);
     transition: all 0.3s ease;
 }
 
 .info-btn:hover{
     background-color: #fff;
-    color: #FD6699;
-    border: 1px solid #FD6699;
+    border: 1px solid var(--main-color);
 }
 
 .icon-footer {
     font-size: 2rem;
-    color: #FD6699;
-
 }
 
 
